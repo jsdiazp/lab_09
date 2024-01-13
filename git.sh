@@ -63,3 +63,7 @@ git branch
 # branch nombre_de_nueva_rama
 # Crear rama
 git branch v1
+
+# merge rama_a_fusionar
+# Fusionar dos rama. El comando fusiona con la rama que esta activa
+git merge v1-merge
