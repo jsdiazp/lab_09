@@ -35,9 +35,7 @@ git commit --amend
 git config --global user.name "Joan Sebastian Diaz del Castillo Posso"
 git config --global user.email "jsdiazp@icloud.com"
 git config --list --global
-
-# diff
-# Visualizar los cambios realizados respecto a una versión anterior
+ión anterior
 git diff
 
 # Versionamiento de código
@@ -67,6 +65,13 @@ git branch
 # branch nombre_de_nueva_rama
 # Crear rama
 git branch v1
+# checkout nombre_rama
+# Moverme entre ramas
+git checkout master
+
+# checkout -b nueva_rama
+# Crear rama y se mueve a ella
+git checkout -b v1-checkout
 
 # merge rama_a_fusionar
 # Fusionar dos rama. El comando fusiona con la rama que esta activa
