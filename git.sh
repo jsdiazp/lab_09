@@ -23,3 +23,13 @@ git add git.sh # Voy a seguir los cambios de git.sh
 # commit
 # Registrar los cambios de un archivo(s)
 git commit -m"Inicio de proyecto" # Registro un cambio (versión) con un mensaje
+
+# config
+# Configurar parámetros de git
+git config --global user.name "Joan Sebastian Diaz del Castillo Posso"
+git config --global user.email "jsdiazp@icloud.com"
+git config --list --global
+
+# diff
+# Visualizar los cambios realizados respecto a una versión anterior
+git diff
