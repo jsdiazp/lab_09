@@ -26,6 +26,10 @@ git add git.sh # Voy a seguir los cambios de git.sh
 # Registrar los cambios de un archivo(s)
 git commit -m"Inicio de proyecto" # Registro un cambio (versión) con un mensaje
 
+# commit --amend
+# Enmendar el mensaje del último commit
+git commit --amend
+
 # config
 # Configurar parámetros de git
 git config --global user.name "Joan Sebastian Diaz del Castillo Posso"
